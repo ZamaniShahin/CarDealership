@@ -37,7 +37,7 @@ body {
 .nav-icon {
   font-size: 1.5rem;
   color: var(--mainBlue);
-  text-decoration: none;
+  text-decoration: none !important;
   transition-property: color;
   text-rendering: 2s;
   transition-timing-function: linear;
