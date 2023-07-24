@@ -15,7 +15,13 @@ body {
   background: var(--mainWhite);
 }
 /* REM values to target root element 1REM = 16px */
-
+/* !section title */
+.section-title-special {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
 /* !navbar */
 .navbar {
   background: var(--mainWhite);
@@ -65,13 +71,13 @@ body {
   animation-iteration-count: infinite;
 }
 @keyframes zoom {
-  0%{
+  0% {
     transform: scale(1);
   }
-  50%{
+  50% {
     transform: scale(1.2) translateX(-5%);
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }
@@ -88,11 +94,11 @@ body {
     font-size: 3rem;
   }
 }
-.title-icon{
+.title-icon {
   color: var(--mainBlue);
   text-decoration: none !important;
 }
-.title-icon:hover{
+.title-icon:hover {
   color: var(--mainBlue);
   opacity: 0.6;
 }
