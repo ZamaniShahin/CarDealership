@@ -309,3 +309,17 @@ body {
     background: var(--transparentBlue);
     z-index: -2;
   }
+  .service{
+    background: var(--mainBlack);
+    color: var(--mainWhite);
+    transition: all 1s ease-in-out;
+  }
+  .service:hover{
+    background: var(--mainWhite);
+    color: var(--mainBlack);
+    padding-left: 2.2rem!important;
+  }
+  .service-icon{
+    font-size: 4rem;
+    color: var(--mainYellow);
+  }
