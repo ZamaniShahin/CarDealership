@@ -5,7 +5,7 @@
   --transparentBlue: rgba(64, 172, 241, 0.7);
   --mainWhite: #ffffff;
   --mainBlack: #292f36;
-  --mainGrey: rgb(216, 214, 214);
+  --mainGray: rgb(216, 214, 214);
   --mainYellow: #e3b505;
 }
 
@@ -106,7 +106,7 @@ body {
 .skills-icon {
   font-size: 3rem;
   color: var(--mainYellow);
-  background: var(--mainGrey);
+  background: var(--mainGray);
 }
 .skills-icon:hover {
   color: var(--mainYellow);
@@ -132,7 +132,7 @@ body {
 }
 /* ?Inventory */
 .inventory {
-  background: var(--mainGrey);
+  background: var(--mainGray);
 }
 .car-card {
   border-radius: 0 !important;
@@ -174,7 +174,7 @@ body {
 }
 /* ! Featured */
 .featured {
-  background: var(--mainGrey);
+  background: var(--mainGray);
 }
 .featured-item {
   background: var(--mainWhite);
@@ -322,4 +322,23 @@ body {
   .service-icon{
     font-size: 4rem;
     color: var(--mainYellow);
+  }
+  /* ? Quotes Section */
+  .customer-card-body{
+    margin-top: 4rem!important;
+    color: var(--mainGray);
+  }
+  .customer-img{
+    border: 0.4rem solid var(--mainWhite);
+  }
+  .customer-name{
+    color: var(--mainBlue);
+    margin: 0.5rem;
+  }
+  .customer-icon{
+    font-size: 2rem;
+    color: var(--mainGray);
+  }
+  .customer-quote{
+    max-width: 90%;
   }
